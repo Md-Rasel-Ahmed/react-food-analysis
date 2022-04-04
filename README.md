@@ -2,8 +2,6 @@
 
 Project live link (https://storied-dusk-2cf062.netlify.app/)
 
-- Item 1
-- Item 2
-- Item 3
-  - Sub Item A
-  - Sub Item B
+- In this project I have used React fontawesome and React chart and React router
+- It has a dashboard showing how much I sell monthly and how much I invest.
+- I used bootstrap in this project

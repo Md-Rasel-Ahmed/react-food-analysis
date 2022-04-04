@@ -3,8 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <h2>Blog pages</h2>
-      <div className="w-50 mx-auto border p-4">
+      <div className="w-50 mx-auto border p-4 mt-5">
         <h3>
           <a href="#">What is React Context API?</a>
         </h3>
