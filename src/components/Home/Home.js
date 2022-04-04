@@ -43,10 +43,14 @@ const Home = () => {
               {reviews.slice(0, 3).map((review) => {
                 return (
                   <div className="container">
-                    <div className="d-flex gap-5 mb-3 align-items-center">
-                      <img className="img-fluid w-25" src={review.img} alt="" />
-                      s
-                      <div>
+                    <div className="d-flex gap-5 mb-3 align-items-center justify-content-center">
+                      <img
+                        style={{ width: "100px", height: "100px" }}
+                        className="img-fluid"
+                        src={review.img}
+                        alt=""
+                      />
+                      <div className="w-50">
                         <h2>{review.name}</h2>
                         <p>{review.reviews}</p>
                         <FontAwesomeIcon
