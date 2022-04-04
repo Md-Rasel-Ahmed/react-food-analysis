@@ -10,14 +10,14 @@ let review = [
   {
     name: "Meheraj",
     reviews:
-      "Very nice food and ambiance. Try the Lebanese chicken and the local Maldive beef burger.",
+      "Very nice food and ambiance. Try the Lebanese chicken and the local Maldive .",
     img: "https://www.pikpng.com/pngl/b/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png",
     rating: "5.0",
   },
   {
     name: "Muize",
     reviews:
-      "The price is low inside this burger and One of the best restaurant in Maldives. Staffs are very obedient and helpful.",
+      "The price is low inside this items and One of the best restaurant in Maldives. Staffs are very obedient and helpful.",
     img: "https://pngset.com/images/download-henry-circle-gentleman-full-size-image-pngkit-person-image-in-circle-human-face-fisheye-transparent-png-2725472.png",
     rating: "3.4",
   },
