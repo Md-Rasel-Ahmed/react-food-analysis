@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [reviews, setReviews] = useCutomerReview([]);
   return (
-    <div>
-      <div className="container mt-4">
+    <div className="">
+      <div style={{ marginTop: "100px" }} className="container">
         <div className="row ">
           <div className="col-lg-6">
             <h1 className="fw-bold text-primary">ETHICAL MEATS</h1>
@@ -40,14 +40,14 @@ const Home = () => {
               {reviews.slice(0, 3).map((review) => {
                 return (
                   <div className="container">
-                    <div className="d-flex gap-5 mb-3 align-items-center justify-content-center">
+                    <div className="d-lg-flex gap-5 mb-3 ">
                       <img
                         style={{ width: "100px", height: "100px" }}
                         className="img-fluid"
                         src={review.img}
                         alt=""
                       />
-                      <div className="w-50">
+                      <div className="">
                         <h2>{review.name}</h2>
                         <p>{review.reviews}</p>
                         <p>

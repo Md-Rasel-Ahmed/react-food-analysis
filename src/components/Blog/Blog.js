@@ -3,7 +3,10 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <div className="w-50 mx-auto border p-4 mt-5">
+      <div
+        style={{ marginTop: "100px", width: "420px" }}
+        className=" mx-auto border p-4"
+      >
         <h3>
           <a href="#">What is React Context API?</a>
         </h3>
@@ -15,7 +18,10 @@ const Blog = () => {
           approach to state management.
         </p>
       </div>
-      <div className="w-50 mx-auto border p-4 mt-4">
+      <div
+        style={{ marginTop: "100px", width: "420px" }}
+        className="mx-auto border p-4 mt-4"
+      >
         <h3>
           <a href="#">What are Semantic Elements?</a>
         </h3>
@@ -28,7 +34,10 @@ const Blog = () => {
           inside them
         </p>
       </div>
-      <div className="w-50 mx-auto border p-4 mt-4">
+      <div
+        style={{ marginTop: "100px", width: "420px" }}
+        className="  mx-auto border p-4 mt-4"
+      >
         <h3>
           <a href="#">Whats the difference Inline elements and Inline-Block?</a>
         </h3>

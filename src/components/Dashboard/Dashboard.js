@@ -7,6 +7,8 @@ import {
   Legend,
   Line,
   LineChart,
+  Pie,
+  PieChart,
   Tooltip,
   XAxis,
   YAxis,

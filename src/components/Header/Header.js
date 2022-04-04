@@ -5,7 +5,7 @@ import CustomLink from "../customLInk/CustomLink";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="d-flex gap-3 mx-auto">
           <CustomLink className="nav-link" to="/">
             Home
