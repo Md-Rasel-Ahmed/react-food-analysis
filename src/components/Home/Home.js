@@ -1,6 +1,10 @@
 import React from "react";
+import useCutomerReview from "../../hooks/useCutomerReview";
+import Review from "../Review/Review";
 
 const Home = () => {
+  const [reviews, setReviews] = useCutomerReview([]);
+  // console.log(reviews);
   return (
     <div>
       <div className="container mt-4">
@@ -22,6 +26,20 @@ const Home = () => {
               alt=""
               className="img-fluid h-75"
             />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h2 className="text-center text-primary fw-bold">
+              CUSTOMER REVIEWS
+            </h2>
+            <div className="reviews">
+              {reviews.map((review) => (
+                <Review review={review}></Review>
+              ))}
+            </div>
           </div>
         </div>
       </div>
