@@ -1,9 +1,13 @@
 import React from "react";
 import useCutomerReview from "../../hooks/useCutomerReview";
-import Review from "../Review/Review";
+import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [reviews, setReviews] = useCutomerReview([]);
+
+  // console.log(reviews);
   // console.log(reviews);
   return (
     <div>
@@ -29,16 +33,48 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container py-4">
         <div className="row">
           <div className="col-12">
             <h2 className="text-center text-primary fw-bold">
               CUSTOMER REVIEWS
             </h2>
             <div className="reviews">
-              {reviews.map((review) => (
-                <Review review={review}></Review>
-              ))}
+              {reviews.slice(0, 3).map((review) => {
+                return (
+                  <div className="container">
+                    <div className="d-flex gap-5 mb-3 align-items-center">
+                      <img className="img-fluid w-25" src={review.img} alt="" />
+                      s
+                      <div>
+                        <h2>{review.name}</h2>
+                        <p>{review.reviews}</p>
+                        <FontAwesomeIcon
+                          className="text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="text-warning"
+                          icon={faStarHalf}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="show-reviews-btn text-center">
+              <Link to="/review" className="btn btn-primary">
+                Show all Reviews
+              </Link>
             </div>
           </div>
         </div>

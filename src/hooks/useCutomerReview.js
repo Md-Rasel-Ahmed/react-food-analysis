@@ -1,10 +1,11 @@
 import { useState } from "react";
+import img from "../img/155-1550391_faces-in-circle-png-transparent-png.png";
 let review = [
   {
     name: "Rakib",
     reviews:
       "This was one of the best restaurant I have had any meal in Maldives. Place is big with both indoor and outdoor seating. Since I went here in afternoon, indoor seating was well air-conditioned.",
-    img: "https://splendidcleaning.ca/wp-content/uploads/2017/06/person-img-2.jpg",
+    img: img,
   },
   {
     name: "Meheraj",
