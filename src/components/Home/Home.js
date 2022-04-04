@@ -50,22 +50,12 @@ const Home = () => {
                       <div className="w-50">
                         <h2>{review.name}</h2>
                         <p>{review.reviews}</p>
-                        <FontAwesomeIcon
-                          className="text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="text-warning"
-                          icon={faStarHalf}
-                        />
+                        <p>
+                          Rating :{" "}
+                          <strong className="text-warning">
+                            {review.rating}
+                          </strong>
+                        </p>
                       </div>
                     </div>
                   </div>
