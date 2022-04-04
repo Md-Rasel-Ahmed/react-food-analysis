@@ -37,7 +37,7 @@ const Home = () => {
         <div className="row">
           <div className="col-12">
             <h2 className="text-center text-primary fw-bold">
-              CUSTOMER REVIEWS
+              CUSTOMER REVIEWS(3)
             </h2>
             <div className="reviews">
               {reviews.slice(0, 3).map((review) => {
