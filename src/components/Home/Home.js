@@ -1,7 +1,5 @@
 import React from "react";
 import useCutomerReview from "../../hooks/useCutomerReview";
-import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -39,7 +37,7 @@ const Home = () => {
             <div className="reviews">
               {reviews.slice(0, 3).map((review) => {
                 return (
-                  <div className="container">
+                  <div key={review.id} className="container">
                     <div className="d-lg-flex gap-5 mb-3 ">
                       <img
                         style={{ width: "100px", height: "100px" }}

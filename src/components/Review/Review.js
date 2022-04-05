@@ -14,13 +14,12 @@ const Review = () => {
         <div className="reviews">
           {reviews.map((review) => {
             return (
-              <div className="container">
+              <div key={review.id} className="container">
                 <div className="d-lg-flex gap-5 mb-3 ">
                   <img
                     style={{ width: "100px", height: "100px" }}
                     className="img-fluid"
                     src={review.img}
-                    alt=""
                   />
                   <div className="">
                     <h2>{review.name}</h2>

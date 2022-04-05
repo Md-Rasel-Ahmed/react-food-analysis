@@ -2,12 +2,14 @@ import { useState } from "react";
 import img from "../img/155-1550391_faces-in-circle-png-transparent-png.png";
 let review = [
   {
+    id: 1,
     name: "Santa aysa",
     reviews: "too much tasting and this food is maldives!",
     img: img,
     rating: "4.0",
   },
   {
+    id: 2,
     name: "Meheraj",
     reviews:
       "Very nice food and ambiance. Try the Lebanese chicken and the local Maldive .",
@@ -15,6 +17,7 @@ let review = [
     rating: "5.0",
   },
   {
+    id: 3,
     name: "Muize",
     reviews:
       "The price is low inside this items and One of the best restaurant in Maldives. Staffs are very obedient and helpful.",
@@ -22,6 +25,7 @@ let review = [
     rating: "3.4",
   },
   {
+    id: 4,
     name: "Hafiz",
     reviews:
       "The food quality is good while the menu is limited with few choices. The service is quite good. The ambiance is fine but they they could definitely improve the seating area which seems clumsy and ordinary",
@@ -29,6 +33,7 @@ let review = [
     rating: "5.0",
   },
   {
+    id: 5,
     name: "Nazim",
     reviews:
       "Good location and cozy atmosphere though not much of Indian choice,no fresh veggies used(not their fault because of depended on other country)",
@@ -36,6 +41,7 @@ let review = [
     rating: "5",
   },
   {
+    id: 6,
     name: "Nahida akter",
     reviews:
       "Had a great time with my friends, there’s variety of food for different diets, the view was stunning and serviced was excellent",
@@ -43,6 +49,7 @@ let review = [
     rating: "4.2",
   },
   {
+    id: 7,
     name: "Rakib",
     reviews:
       "This was one of the best restaurant I have had any meal in Maldives. Place is big with both indoor and outdoor seating. Since I went here in afternoon, indoor seating was well air-conditioned.",
