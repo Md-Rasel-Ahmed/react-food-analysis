@@ -8,16 +8,16 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="d-flex gap-3 mx-auto">
           <CustomLink className="nav-link" to="/">
-            Home
+            HOME
           </CustomLink>
           <CustomLink className="nav-link" to="/review">
-            Review
+            REVIEW
           </CustomLink>
           <CustomLink className="nav-link" to="/dashboard">
-            Dashboard
+            DASHBOARD
           </CustomLink>
           <CustomLink className="nav-link" to="/blog">
-            Blog
+            BLOG
           </CustomLink>
           {/* <Link className="nav-link" to="/review"> */}
           {/* Review
